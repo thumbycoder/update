@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Pointe</title>
+  <div class="header">
+      <h1>Project Pointe</h1>
+      <p>This is a early beta so dont expect anything good.</p>
+  </div>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+        #video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .button img {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="video-background">
+        <video autoplay loop muted>
+            <source src="background.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="button-container">
+        <button class="button" onclick="window.location.href='/mscwbpb1'">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAaVBMVEUBAQH///8AAAD/+/////3+/P3s7OzT09N9fX0oKCijo6Otra2xsbH39/dOTk5LS0tlZWUjIyMxMTGJiYkjIyBycnJgYGDt7unl5eVGRkYXFxcaGxi/v7+dnZ02NjaTk5MNDQ0/Pz/c3NyBi08XAAAC8UlEQVR4nO3c6XKiQBRAYUFao4hCjEYcx8S8/0MOq1HAcKvHhoacU1bFPyxfmkUKdDIhIiIiIiIiIiIiIiIiIiIica6wbmelazlG0SJ5pUV5i3pHwSoks2qYsiwqOxrEnD98f5W80vy8Vb3dpwCz2DZMWeaXbQWz0sWEgSNoFbWugeuuv1rn43nOV/ustDH7WXBNqWmad5cUM3HX8+q6p3NTaddFvHvzTjAqmOapp2IyTXDlGMZ4xWKyJRcbw5MwecWAl5g/JjFODaO1z9iE8ZQpjKpg3sxjHGOY6sgYxXjp3pkdc5Kd1czIZJp0KcYxqjiIPXD8/8gUoGw5xveZjjBT85iwK0xx0nFMbmbdYDJQV5gf1wLMA8x0LBg1ppHpBKO6wijzmEdn/WdjcpFj8hKge8xoRkaNCWN8ZASW52EcMGDAgAEDBowYY/SDJhgwYHQw6scrgeWn4C7y5hujvivuyZUZxcTzmaDlerNuaxOeJLM6Tcxh3CiO401aHJfval1Wktu4wfb1Cnvc2eRzAKJ8T4Tp+aEGIdkvb262YHpeT1GuLxgYMD0ExtbA2BoYW0swYzppjuoTwJgwqzFtZsPFNF0CtEocx2u6BLDQoo/pm+Nedi+VdifBvUIv8MNdpXDRN2YpGIYmTMNeNXvpeWjcZSA5EDdg6pMlmF4tKUZrZBzPqf0LhotpCAwYMGDAPA2jc9K0FaP1CQAMGDDjwDxHAgbM78GM6gAABgwYMGDAgAEDBgyY342RfJdzMJjg5Le3qj+JbyXmsBY8r9zwK1o2YGor9b4vb4Hnf643xN2bd+FhMJjWycCYbmyY2gEAjBWYv1qYCRjTaWP29p00Xc2j2WAwHhhLMYPdzNIDwO2XRtNkI5MczVT543/FdP1jloHSxTj3GCtGpoY5iDazQ3VELcB81PeZeaz3Re1D2PejwG76W9qvt50lvz2dTHe5myqZyVv/j5zrPQT/4GLa+OoSEREREREREREREREREfXWPzYhYf+MTVdRAAAAAElFTkSuQmCC" alt="Project Pointe Icon">
+            Minecraft
+        </button>
+      <button class="button" onclick="window.location.href='/games'">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Video_game_controller_icon_designed_by_Maico_Amorim.svg/1249px-Video_game_controller_icon_designed_by_Maico_Amorim.svg.png" alt="Project Pointe Icon">
+          Games
+      </button> <button class="button" onclick="window.location.href='https://anura.pro'">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPdRkiJWbBKmyTTlngK6pCZpcwammSfBDC5ADaGMGV3Cnt_lHZe6OG71nF8Q&s" alt="Project Pointe Icon">
+          Anura OS
+      </button>
+      <button class="button" onclick="window.location.href='/cwbp'">
+          <img src="https://app-link-icons.s3.amazonaws.com/googleclassroom.png" alt="Project Pointe Icon">
+          Classwise Bypasser
+      </button>
+      <button class="button" onclick="window.location.href='https://64.227.120.231/?__cpLangSet=1%20url=https://64.227.120.231/?__cpLangSet=1'">
+          <img src="https://th.bing.com/th/id/OIP.UBSCN1h3VMnMCLpkUBSE9gAAAA?w=115&h=128&c=7&r=0&o=5&pid=1.7" alt="Project Pointe Icon">
+          CroxyProxy
+      </button>
+      <button class="button" onclick="window.location.href='https://remotedesktop.google.com'">
+          <img src="data:image/jpeg;base64,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">
+          Chrome Remote Desktop
+      </button>
+    </div>
+   <p>Prodject pointe v1.1.</p>
+</body>
+</html>
